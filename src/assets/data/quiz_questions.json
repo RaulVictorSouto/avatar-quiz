@@ -1,0 +1,54 @@
+{
+  "title": "Avatar: Descubra seu elemento",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual é a sua maior força?",
+      "options":[
+        {"id": 1, "name":"Minha capacidade de pensar fora da caixa e encontrar soluções criativas para problemas.", "alias":"A"},
+        {"id": 2, "name":"Minha capacidade de me conectar com os outros e construir relacionamentos fortes. ", "alias":"B"},
+        {"id": 3, "name":"Minha capacidade de me concentrar e perseverar em face de desafios.", "alias":"C"},
+        {"id": 4, "name":"Minha capacidade de ser forte e resistente, mesmo em condições adversas.", "alias":"D"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "O que é mais importante para você?",
+      "options": [
+        {"id": 1, "name": "Força e poder.", "alias": "D"},
+        {"id": 2, "name": "Paz e harmonia.", "alias": "B"},
+        {"id": 3, "name": "Criatividade e expressão.", "alias": "C"},
+        {"id": 4, "name": "Liberdade e independência.", "alias": "A"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual é sua maior fraqueza?",
+      "options": [
+        {"id": 1, "name": "Eu posso ser muito disperso e ter dificuldade em me concentrar.", "alias": "C"},
+        {"id": 2, "name": "Eu posso ser muito protetor e me preocupar demais com os outros.", "alias": "B"},
+        {"id": 3, "name": "Eu posso ser impulsivo e agir sem pensar.", "alias": "A"},
+        {"id": 4, "name": "Eu posso ser muito teimoso e ter dificuldade em aceitar conselhos.", "alias": "D"}
+
+      ]
+    },
+    {
+      "id": 4,
+      "question": "O que você faria se visse alguém em perigo?",
+      "options": [
+        {"id": 1, "name": "Eu tentaria negociar com o perigo para salvar a pessoa.", "alias": "B"},
+        {"id": 2, "name": "Eu tentaria ajudar, mesmo que fosse perigoso.", "alias": "A"},
+        {"id": 3, "name": "Eu tentaria pensar em uma maneira criativa de resolver a situação.", "alias": "C"},
+        {"id": 4, "name": "Eu tentaria usar minha força para derrotar o perigo.", "alias": "D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você é um dobrador de AR!  Os dobradores de ar são verdadeiros artistas da liberdade, explorando caminhos inexplorados com criatividade e independência. Seu espírito livre busca constantemente novas formas de encarar o mundo, trazendo inovação e leveza aos desafios que encontra.",
+    "B": "Você é um dobrador de ÁGUA! Os dobradores de água são seres compassivos que fluem como rios de empatia. Sua habilidade de construir relacionamentos fortes e buscar harmonia faz de você uma presença cativante. Você encontra novas maneiras de navegar pelas águas da vida.",
+    "C": "Você é um dobrador de FOGO! Os dobradores de fogo são expressivos e determinados, moldando a realidade com criatividade e paixão. Sua busca incansável pelo que quer ilumina o caminho, e sua expressividade ardente torna cada desafio uma oportunidade única de criar algo extraordinário.",
+    "D": "Você é um dobrador de TERRA! Os dobradores de terra são fortes, pacientes e poderosos, como gigantes inabaláveis. Sua resistência e teimosia, embora desafiadoras, são fundamentais para a estabilidade do mundo ao seu redor. Seu legado é esculpido na solidez das rochas que moldam a história."
+  }
+}
+
+

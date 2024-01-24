@@ -1,0 +1,29 @@
+<div class="quiz-container">
+  <div class="quiz-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Avatar_Logo_4c.svg/1200px-Avatar_Logo_4c.svg.png" alt="" srcset="">
+    <h3>{{ title }}</h3>
+  </div>
+  <div class="quiz-questions"
+  *ngIf="!finished">
+    <h3>{{questionSelected.question}}</h3>
+
+  </div>
+  <div class="quiz-options"
+  *ngIf="!finished">
+    <button
+    *ngFor = "let option of questionSelected.options; let i = index"
+    (click) = "playerChoose(option.alias)"
+    class="btn-option">
+      {{option.name}}
+    </button>
+  </div>
+  <div *ngIf="finished" class="quiz-results" [ngStyle]="{
+    'background-color': getColorForAnswerBG(answersSelected),
+    'border-color': getColorForAnswerBorder(answersSelected)
+  }">
+    <h1>O seu resultado é:</h1>
+    <p>{{answersSelected}}</p>
+    <img [src]="getImageForAnswer(answersSelected)" alt="Imagem correspondente à resposta">
+    <button (click)="resetQuiz()">Refazer o Teste</button>
+  </div>
+</div>
